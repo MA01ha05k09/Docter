@@ -1,0 +1,44 @@
+.Select-Doctor-pranat{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Select-Doctor-div{
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+    margin-bottom: 100px;
+
+}
+.doctor-iamges-card-maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.doctor-card{
+width: 320px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border-radius: 20px;
+}
+.image-div{
+    width:100% ;
+}
+.details-div{
+    background: rgba(237,237,237,255);
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+    padding: 20px 5px;
+    text-align: center;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.details-div:hover{
+    background: rgba(103,182,172,255);
+    cursor: pointer;
+    color: white;
+}
